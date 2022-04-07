@@ -1,2 +1,2 @@
-- Yo
-    - farts
+- Introduction
+    - [Getting started](getting-started.md)

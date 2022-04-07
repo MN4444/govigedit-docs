@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -9,13 +10,13 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
+
 <body>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
   <!-- Plugins -->
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
   <div id="app">Loading...</div>
 
@@ -24,25 +25,36 @@
     window.$docsify = {
       name: 'Govigedit',
       repo: 'https://github.com/SquirrelKiev/GovigeditDocs',
-	    loadSidebar: true,
-      sidebarDisplayLevel: 1, 
+      loadSidebar: true,
+      sidebarDisplayLevel: 1,
+
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true,
+      },
 
       plugins: [
-      function (hook, vm) {
+        function (hook, vm) {
           // parse twemoji
-          hook.doneEach(function() {
-              twemoji.parse(document);
+          hook.doneEach(function () {
+            twemoji.parse(document);
           });
         },
-        EditOnGithubPlugin.create('https://github.com/SquirrelKiev/GovigeditDocs/blob/master/docs/', null, '📝Edit Document')
+
+        EditOnGithubPlugin.create('https://github.com/SquirrelKiev/GovigeditDocs/blob/master/docs/', null,
+          '📝Edit Document')
       ]
     }
   </script>
 
-  <!-- Also plugins -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Also plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
+
 </html>
