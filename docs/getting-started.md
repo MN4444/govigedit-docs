@@ -1,6 +1,6 @@
 # Getting started
 
-?> if you're completely new to Unity it might be a good idea to learn the basics of the Unity interface. 
+?> If you're completely new to Unity it might be a good idea to learn the basics of the Unity interface. 
 The first couple videos in the [Using the Unity Interface](https://learn.unity.com/tutorial/using-the-unity-interface?uv=2020.3) tutorial by Unity are a good place to start. 
 
 ## Installing Unity
