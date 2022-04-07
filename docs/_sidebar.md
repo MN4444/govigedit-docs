@@ -1,2 +1,1 @@
-- Introduction
-    - [Getting started](getting-started.md)
+- [Getting started](getting-started.md)
