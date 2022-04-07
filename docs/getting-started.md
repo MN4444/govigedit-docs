@@ -47,3 +47,4 @@ Once the map has finished exporting, fire up the prototypes, and create an Onlin
 You can then load it up and have a look!
 
 This map obviously isn't going to win any awards, but this basic setup is mostly required for each map you create. 
+(The plane can be swapped out for your map terrain of course)
