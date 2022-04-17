@@ -16,7 +16,7 @@ Now, you will want to add whatever you would like the object to look like as a c
 
 ### Required Components
 
- Once that is complete, we can begin adding our components. Now the components you will need are going to be listed here. These can be added in any order, just make sure you have them all! Otherwise there will be issues with your rigidbody.
+ Once that is complete, we can begin adding our components. Now the components you will need are going to be listed here. These can be added in any order, just make sure you have them all! Otherwise there will be issues with your rigidbody. (You can find out what each of them do in [the components list](components.md))
 
  ![List of Components](_media/complist.png)
 
