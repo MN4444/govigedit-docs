@@ -26,8 +26,4 @@ Now, you will want to add whatever you would like the object to look like as a c
 
 !> Make sure the visuals only has a Mesh Renderer and Mesh Filter or Particle System!
 
-?> Why do we do this? In order to hide lag and jitter, DAVIGO interpolates (smooths the movement between ticks) the visuals. Doing this to the networked object would have issues, so we only do it to the visuals.  
-
-## Testing your objects
-
- Once you've gotten all of those steps complete, then you can test your object in the game itself. First, you generally would want to test to see if well, its simply there.  As if it isn't, then you are either missing a component or did not setup your colliders correctly.
+?> Why do we do this? In order to hide lag and jitter, DAVIGO interpolates (smooths the movement between ticks) the visuals. Doing this to the networked object would have issues, so we only do it to the visuals.
