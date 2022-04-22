@@ -8,19 +8,19 @@ To begin making a custom rigidbody, you want to create an empty game object and 
 
  ![Resetting Transform](_media/transform-reset.png)
 
-### Visuals
+## Visuals
 
 Now, you will want to add whatever you would like the object to look like as a child of the object, and this can be done by dragging and dropping your object onto the empty game object, in the hierarchy, and resetting the transform of the object. In this case, we'll be using a cube, but this can be whatever you want.
 
  ![Drag Object](_media/gameobjectdrag.png)
 
-### Required Components
+## Required Components
 
  Once that is complete, we can begin adding our components. Now the components you will need are going to be listed here. These can be added in any order, just make sure you have them all! Otherwise there will be issues with your rigidbody. (You can find out what each of them do in [the components list](components.md))
 
  ![List of Components](_media/complist.png)
 
-### Interpolation Targets
+## Interpolation Targets
 
  If you expand all your components, you may see that your Davigo Network Rigidbody has no Interpolation Target. To fix that, rename the visuals to "Art" (doesn't have to be named this, but is named this out of convention) and drag the visuals onto the Interpolation Target field.
 
