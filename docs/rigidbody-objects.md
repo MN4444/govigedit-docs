@@ -23,6 +23,8 @@ Now, you will want to add whatever you would like the object to look like as a c
 ## Interpolation Targets
 
  If you expand all your components, you may see that your Davigo Network Rigidbody has no Interpolation Target. To fix that, rename the visuals to "Art" (doesn't have to be named this, but is named this out of convention) and drag the visuals onto the Interpolation Target field.
+ 
+!> The interpolation target's scale will get set to the Rigidbodies scale every frame, so make sure if you're changing the art's scale, that you're changing the rigidbody's, not the art's.  
 
 !> Make sure the visuals only has a Mesh Renderer and Mesh Filter or Particle System!
 
