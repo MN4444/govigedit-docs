@@ -9,6 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    img.asset-icon {
+      height: 1em;
+    }
+  </style>
 </head>
 
 <body>
@@ -24,31 +29,31 @@
   <script>
     // Config
     window.$docsify = {
-      name: 'Govigedit',
-      repo: 'https://github.com/SquirrelKiev/govigedit-docs',
-      loadSidebar: true,
-      subMaxLevel: 3,
-      sidebarDisplayLevel: 1,
+        name: 'Govigedit',
+        repo: 'https://github.com/Davigo-Studio/govigedit-docs',
+        loadSidebar: true,
+        subMaxLevel: 3,
+        sidebarDisplayLevel: 1,
 
-      pagination: {
-        previousText: 'Previous',
-        nextText: 'Next',
-        crossChapter: true,
-        crossChapterText: true,
-      },
-
-      plugins: [
-        function (hook, vm) {
-          // parse twemoji
-          hook.doneEach(function () {
-            twemoji.parse(document);
-          });
+        pagination: {
+          previousText: 'Previous',
+          nextText: 'Next',
+          crossChapter: true,
+          crossChapterText: true,
         },
 
-        EditOnGithubPlugin.create('https://github.com/SquirrelKiev/govigedit-docs/blob/master/docs/', null,
-          '📝Edit Document')
-      ]
-    }
+        plugins: [
+          function (hook, vm) {
+            // parse twemoji
+            hook.doneEach(function () {
+                twemoji.parse(document);
+              });
+
+              EditOnGithubPlugin.create('https://github.com/Davigo-Studio/govigedit-docs/blob/master/docs/', null,
+                '📝Edit Document');
+            }
+          ]
+        }
   </script>
 
   <!-- Also plugins -->
