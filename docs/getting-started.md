@@ -9,16 +9,14 @@ To begin with we'll want to download and install Unity.
 
 The easiest (and recommended) way to install Unity is via the Unity Hub. It can be downloaded and installed from [here](https://unity3d.com/get-unity/download/archive).
 
-Once you've downloaded and installed Unity Hub, you'll then need to grab Unity 2020.3.24.
+Once you've downloaded and installed Unity Hub, you'll then need to grab Unity 2020.3.34. (Must be this version, other versions might have issues.)
 Make sure to also install `Android Build Support` along side it, as it is needed for Quest support.
-[Heres a convenient Unity Hub link!](unityhub://2020.3.24f1/79c78de19888)
+[Heres a convenient Unity Hub link!](unityhub://2020.3.34f1/9a4c9c70452b)
 (if that doesn't work you can also grab it from [here](https://unity3d.com/get-unity/download/archive))
-
-?> Make sure you are using **exactly** version 2020.3.24, as maps exported with other Unity versions may fail to load correctly.
 
 Now create a new, empty 3D project to build your map in and open it.
 
-Once that project has loaded, download the [Govigedit package](https://drive.google.com/file/d/1ZsPG0WE9FezCTqkH9dm6najmleC-5Dmn/view?usp=sharing)
+Once that project has loaded, download the [Govigedit package](https://davigo.page.link/govigedit-latest)
 (if you haven't already), and import it either by double-clicking on it in File Explorer, importing it via `Assets -> Import Package -> Custom Package`, or dragging the package onto the Hierarchy.
 
 ## Creating a very basic map
