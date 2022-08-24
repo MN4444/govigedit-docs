@@ -2,6 +2,8 @@
 
 ?> What does this allow? Rigidbodies (physics object) allow map makers to make their own special throwable objects! Such as a barrel, crate, and pretty much anything you can think of.
 
+!> Since writing this tutorial, we have included an object builder which should make this process drastically easier. We recommend using that instead of the below. It can be found under Govigedit > Interactable Builder. 
+
 ## Setting up your rigidbody
 
 To begin making a custom rigidbody, you want to create an empty game object and reset its transform. This will set its location to 0, 0, 0 on your map, to keep everything in line. Feel free to name this whatever you want, as it affects nothing. For this we will simply leave it as GameObject, but if you are making something such as a barrel, it would be best to name it that for organization sake.
