@@ -36,7 +36,7 @@ Create a plane, right click on it's Transform in the Inspector, and click reset.
 Create a Giant spawn position and Warrior spawn position. These can be found in `Assets/Davigo/Common/Prefabs`.
 
 We'll also need a killzone so the warrior respawns when they fall off. This can be found in `Assets/Govidad/Govigedit/Package/Prefabs`.
-!> Don't make the killzone too small as this can lead to problems later down the line
+!> Do not make the killzone too small, as this can lead to problems later down the line.
 
 Finally, we'll need a GameObject with the `MapSettingsComponent` on it. You can find an example prefab in `Assets/Govidad/Govigedit/Package/Prefabs`.
 In said `MapSettingsComponent`, you can find fields for the map's name, description, the author, as well as a preview image.
